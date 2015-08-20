@@ -33,3 +33,9 @@ print ':'.join(x.encode('hex') for x in data[0:3])
 print img.getpixel((9,0))
 
 img.show()
+
+for r_value in range(256):
+    for ascii_value in range(256):
+        if (r_value & 0xFC) | (ascii_value >> 5) != r_value & 0xFC | ascii_value >> 5:
+            print 'error'
+print 'good'
