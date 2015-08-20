@@ -1,0 +1,1 @@
+Encodes images in messages
