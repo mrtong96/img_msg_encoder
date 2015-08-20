@@ -1,1 +1,2 @@
-Encodes images in messages
+Encodes messages in images and can decode messages from encoded images.
+
